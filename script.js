@@ -4,7 +4,7 @@ AOS.init({
     easing: 'ease-in-out', // Smooth easing
   });
     const API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
-  const API_KEY = 'AIzaSyD5CamuZMUL5wyV4OK2WyzICW8qubD8sOg';
+  const API_KEY = ''; // enter your API_KEY
 
   const chatContainer = document.getElementById('chat-container');
   const userInput = document.getElementById('user-input');
